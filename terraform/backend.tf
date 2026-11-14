@@ -10,7 +10,7 @@ terraform {
 
   backend "azurerm" {
     resource_group_name  = "rg-terraform-state"
-    storage_account_name = "gehanstfstate2026" # Replace with your storage account name
+    storage_account_name = "gehanstfstate2026" 
     container_name       = "tfstate"
     key                  = "gitops-aks.terraform.tfstate"
   }
